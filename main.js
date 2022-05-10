@@ -1,7 +1,19 @@
-function stringLength(practice) {
-        return practice.split('').reduce((length) => length + 1, 0);
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+function reverseString(fruits) {
+    return fruits.reverse();
 }
 
-it('characters', () =>
-  expect(stringLength({
-  })).toBe(8))
+it('fruits', () =>
+  expect(reverseString({
+    items: [
+      "Banana", "Orange", "Apple", "Mango" 
+    ]
+  })).toBe(false))
+
+/*
+function reverseString(str) {
+    return str.split("").reverse().join("");
+}
+reverseString("hello");
+*/
