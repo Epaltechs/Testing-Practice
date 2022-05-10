@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Epaltechs/Testing-Practice/issues"
   },
-  "homepage": "https://github.com/Epaltechs/Testing-Practice#readme"
+  "homepage": "https://github.com/Epaltechs/Testing-Practice#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
 }
