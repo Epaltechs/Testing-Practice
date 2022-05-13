@@ -1,15 +1,20 @@
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const reverseString = (string) => {
+  return string.split('').reverse().join('');
+};
 
-function reverseString(fruits) {
-    return fruits.reverse();
-}
+export default reverseString;
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
-it('fruits', () =>
-  expect(reverseString({
-    items: [
-      "Banana", "Orange", "Apple", "Mango" 
-    ]
-  })).toBe(false))
+// function reverseString(fruits) {
+//     return fruits.reverse();
+// }
+
+// it('fruits', () =>
+//   expect(reverseString({
+//     items: [
+//       "Banana", "Orange", "Apple", "Mango" 
+//     ]
+//   })).toBe(false))
 
 /*
 function reverseString(str) {
