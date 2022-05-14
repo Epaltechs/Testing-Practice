@@ -7,12 +7,13 @@ const message = {
     multiply: 'multiplication of 2 numbers is:'
   }
   
-  //Act
+//Action
   const addition = calculator.add(10, 5);
   const subtraction = calculator.subtract(10, 5);
   const division = calculator.divide(10, 5);
   const multiplication = calculator.multiply(10, 5);
 
+//Alert
 describe('Calculator', () => {
     test('is addition', () => {
       expect(Calculator.add).toBeTruthy();
