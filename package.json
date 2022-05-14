@@ -19,6 +19,15 @@
   },
   "homepage": "https://github.com/Epaltechs/Testing-Practice#readme",
   "devDependencies": {
+
+    "jest": "^28.1.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "save-dev": "^0.0.1-security"=====
     "jest": "^28.1.0"
+
+    "jest": "^28.1.0"
+
   }
 }
